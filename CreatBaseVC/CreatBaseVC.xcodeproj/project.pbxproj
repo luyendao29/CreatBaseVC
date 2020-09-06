@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81401D4A25051A4700292B07 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81401D4825051A4700292B07 /* MasterTableViewCell.swift */; };
+		81401D4B25051A4700292B07 /* MasterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81401D4925051A4700292B07 /* MasterTableViewCell.xib */; };
+		81401D4D25051D5000292B07 /* CocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81401D4C25051D5000292B07 /* CocktailViewController.swift */; };
+		81401D5025051DFB00292B07 /* CocktailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81401D4F25051DFB00292B07 /* CocktailModel.swift */; };
+		81401D5225051E0600292B07 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81401D5125051E0600292B07 /* DataService.swift */; };
+		81401D5525051EDE00292B07 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81401D5425051EDE00292B07 /* UIViewExtension.swift */; };
+		81401D5725052D0400292B07 /* DisplayCocktailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81401D5625052D0400292B07 /* DisplayCocktailVC.swift */; };
 		81F808792503DF9200BEB38E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F808782503DF9200BEB38E /* AppDelegate.swift */; };
 		81F8087B2503DF9200BEB38E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F8087A2503DF9200BEB38E /* SceneDelegate.swift */; };
 		81F8087D2503DF9200BEB38E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F8087C2503DF9200BEB38E /* ViewController.swift */; };
@@ -20,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81401D4825051A4700292B07 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		81401D4925051A4700292B07 /* MasterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterTableViewCell.xib; sourceTree = "<group>"; };
+		81401D4C25051D5000292B07 /* CocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailViewController.swift; sourceTree = "<group>"; };
+		81401D4F25051DFB00292B07 /* CocktailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailModel.swift; sourceTree = "<group>"; };
+		81401D5125051E0600292B07 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		81401D5425051EDE00292B07 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		81401D5625052D0400292B07 /* DisplayCocktailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCocktailVC.swift; sourceTree = "<group>"; };
 		81F808752503DF9200BEB38E /* CreatBaseVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatBaseVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F808782503DF9200BEB38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F8087A2503DF9200BEB38E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +59,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81401D4725051A2000292B07 /* MasterTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				81401D4825051A4700292B07 /* MasterTableViewCell.swift */,
+				81401D4925051A4700292B07 /* MasterTableViewCell.xib */,
+			);
+			path = MasterTableViewCell;
+			sourceTree = "<group>";
+		};
+		81401D4E25051DE500292B07 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				81401D4F25051DFB00292B07 /* CocktailModel.swift */,
+				81401D5125051E0600292B07 /* DataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		81401D5325051ED500292B07 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				81401D5425051EDE00292B07 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		81F8086C2503DF9200BEB38E = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +104,13 @@
 		81F808772503DF9200BEB38E /* CreatBaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				81401D5325051ED500292B07 /* Extension */,
+				81401D4E25051DE500292B07 /* DataService */,
 				81F808782503DF9200BEB38E /* AppDelegate.swift */,
 				81F8087A2503DF9200BEB38E /* SceneDelegate.swift */,
 				81F8087C2503DF9200BEB38E /* ViewController.swift */,
+				81401D4C25051D5000292B07 /* CocktailViewController.swift */,
+				81401D4725051A2000292B07 /* MasterTableViewCell */,
 				81F8087E2503DF9200BEB38E /* Main.storyboard */,
 				81F808812503DF9400BEB38E /* Assets.xcassets */,
 				81F808832503DF9400BEB38E /* LaunchScreen.storyboard */,
@@ -75,6 +119,7 @@
 				81F8088E2503E3F700BEB38E /* AlertService.swift */,
 				81F808902503E62A00BEB38E /* BaseViewController.swift */,
 				81F808922503EA1B00BEB38E /* DetailVC.swift */,
+				81401D5625052D0400292B07 /* DisplayCocktailVC.swift */,
 			);
 			path = CreatBaseVC;
 			sourceTree = "<group>";
@@ -140,6 +185,7 @@
 				81F808852503DF9400BEB38E /* LaunchScreen.storyboard in Resources */,
 				81F808822503DF9400BEB38E /* Assets.xcassets in Resources */,
 				81F808802503DF9200BEB38E /* Main.storyboard in Resources */,
+				81401D4B25051A4700292B07 /* MasterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				81F8087D2503DF9200BEB38E /* ViewController.swift in Sources */,
+				81401D5725052D0400292B07 /* DisplayCocktailVC.swift in Sources */,
 				81F808792503DF9200BEB38E /* AppDelegate.swift in Sources */,
 				81F8088D2503E29600BEB38E /* AlertConfirmVC.swift in Sources */,
+				81401D4A25051A4700292B07 /* MasterTableViewCell.swift in Sources */,
+				81401D4D25051D5000292B07 /* CocktailViewController.swift in Sources */,
+				81401D5225051E0600292B07 /* DataService.swift in Sources */,
+				81401D5525051EDE00292B07 /* UIViewExtension.swift in Sources */,
+				81401D5025051DFB00292B07 /* CocktailModel.swift in Sources */,
 				81F8087B2503DF9200BEB38E /* SceneDelegate.swift in Sources */,
 				81F8088F2503E3F700BEB38E /* AlertService.swift in Sources */,
 				81F808912503E62A00BEB38E /* BaseViewController.swift in Sources */,
